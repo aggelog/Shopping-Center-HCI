@@ -7,7 +7,9 @@ Direcotries
 ===========
 
 Pages for Desktop mode are located in folder  ./content
+
 Pages for Mobile  mode are loacted in folder  ./mob/mobile_website
+
 Rest of Libraries etc  are located in folder  ./assets
 
 Phases Listing
