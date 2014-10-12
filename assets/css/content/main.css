@@ -1,0 +1,155 @@
+body{
+	width: 960px;
+	height: auto;
+	margin:0px auto 20px auto;
+}
+
+/* --------------------- HEADER --------------- */
+.hdr
+{ 
+	background-color: #D4E9F2;
+	position: relative; 
+}
+
+.hdr_lang
+{
+	padding: 2px 10px 2px 2px;
+	position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+.hdr_navtop
+{
+	position: absolute; 
+    bottom: 45px; 
+    right: 10px;
+}
+
+.hdr_navbot
+{
+	height:40px;
+	width:680px;
+	position: absolute; 
+    bottom: 0px; 
+    left: 280px;
+}
+.hdr_navbot ul 	{ margin: 0px 0px 5px 0px; }
+.hdr_search		{ margin-left:0px; }
+.hdr_search form i { margin-left:-30px; }
+.carousel { margin-bottom: 0px;}
+/* --------------------- CONTENT ---------------- */
+.title{ 
+	text-align: center; 
+	padding-top: 3px; 
+	padding-bottom: 4px; 
+}
+
+/* --------------------- CALENDAR --------------- */
+.cont_calendar
+{
+	float: left;
+	width:260px;
+	height: 450px;
+	margin-bottom: 10px;
+}
+.entry { 
+	margin-left: 10px; 
+	height: 45px; 
+	margin-bottom: 15px; 
+}
+.entry_left { padding-top: 5px; float: left; width: 40%; }
+.entry_right { float: left; width: 60%; }
+.entry_left button { width: 75px; }
+/* --------------------- CINEMA --------------- */
+.cont_cinema {
+	float: left;
+	width:400px;
+	height: 450px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.cin_entry {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.cin_info {
+	float:left;
+	width:65%;
+}
+.cin_info h6 { line-height: 120%;}
+
+.cin-mov1 {
+	margin-top: 5px;
+	float:left;
+	width:49%;
+}
+.cin-mov2 {
+	margin-top: 5px;
+	float:left;
+	width:49%;
+}
+.cin-mov-text { text-align: center; margin-bottom: 5px; }
+
+.cin_view {
+	float:left;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/* -------------------- PROSFORES - SYNAYLIES - */
+.cont_rig
+{
+	float: left;
+	width:300px;
+	height: 450px;
+	margin-bottom: 10px;
+}
+
+.rigTOP{
+	height: 63%;
+}
+.offer_container
+{
+	position: relative;
+	height: 100%;
+}
+.offer_text
+{
+	position: absolute;
+	bottom: 48px;
+	width: 100%;
+	height:25%;
+	background: rgb(80,169,189); 
+    background: rgba(80,169,189,0.9); 
+}
+.offer_text p { line-height: 90%; margin: 0px 4px 0px 8px;}
+.offer_text h5 { margin: 0px 4px 0px 8px; }
+
+.offer-links{ margin-top: 6px;}
+.offer-link { padding:0px 12px 0px 12px; }
+a.offer-link:link { font-size: 14px;text-decoration: none; color:#FFF;}
+a.offer-link:visited {font-size: 14px; text-decoration: none; color:#FFF;}
+a.offer-link:active {font-size: 14px; text-decoration: none; color:#FFF;}
+a.offer-link:hover {font-size: 14px; color:#D6D6D3;  }
+
+.rigDOWN{
+	text-align: center;
+	margin-left: auto;
+}
+.con_info { padding-top: 8px;}
+
+
+/* --------------------- FOOTER --------------- */
+.ftr {
+	clear: both;
+	background-color: #D4E9F2;
+	height:145px;
+}
+.ftr_div {
+	width:220px;
+	float: left;
+	padding: 10px 10px 20px 10px;	
+}
+.ftr_entry { padding-top: 6px; }

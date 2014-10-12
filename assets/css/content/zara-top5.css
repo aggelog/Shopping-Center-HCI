@@ -1,0 +1,27 @@
+.zara-cont{ height : 800px; }
+.top-list {
+	float: left;
+	width: 850px;
+}
+
+.top-list-title{ width:100%; padding-left: 30px; float: left; }
+
+.top-list-items{ 
+	float: left; 
+	padding: 10px 10px 10px 30px;
+}
+
+.list-item { 
+	float: left; 
+	position: relative;
+	padding: 0px 20px 0px 20px; 
+}
+.list-item-tlt {  
+	text-align: center; 
+	margin: 0 auto; 
+	padding: 0px 0px 3px 0px;
+}
+.list-item-inf{
+	text-align: center; 
+	width: 100px;
+}

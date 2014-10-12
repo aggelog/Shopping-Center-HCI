@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Small: Sign up</title>
+
+<link href="../assets/css/bootstrap.css" rel="stylesheet">
+<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="../assets/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet">
+
+<link href="../assets/datepicker/css/datepicker.css" rel="stylesheet">
+
+<link href="../assets/css/content/signup.css" rel="stylesheet">
+<link href="../assets/css/content/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class='hdr'>
+
+    <div class='hdr_img'>
+        <a href="./main.html"> <img src="../assets/img/page_main/logo.png" width="270" height="200"></a>
+    </div>
+
+     <div class='hdr_lang'>
+        <img src="../assets/img/page_main/help.png" width="25" height="25">
+        <img src="../assets/img/page_main/lang_gr.png" width="25" height="25">
+        <img src="../assets/img/page_main/lang_en.jpg" width="25" height="25">
+    </div>
+
+    <div class="hdr_nav">
+        <div class='hdr_navtop'>
+            <a href="./signup.html">Sign up</a> | <a href="./signup.html">Login</a> | <a href="./storeLocator/storeLocator1.html">Store locator</a>
+        </div>
+
+        <div class='hdr_navbot'>
+            
+            <ul class="nav nav-pills">
+            
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Shopping <b class="caret"></b></a> 
+            <ul class="dropdown-menu">
+            <li><a href="./stores/store-shop.html"> Clothes</a></li>
+            <li><a href="./stores/store-shop.html"> Shoes</a></li>
+            <li><a href="./stores/store-shop.html"> Accessories</a></li>
+            <hr>
+            <li><a href="./stores/store-list.html"> All shops</a></li>
+            </ul></li>
+            
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Dining <b class="caret"></b></a> 
+            <ul class="dropdown-menu">
+            <li><a href="./stores/store-rest.html"> Restaurants</a></li>
+            <li><a href="./stores/store-rest.html"> Cafes</a></li>
+            <li><a href="./stores/store-rest.html"> Ice creams</a></li>
+            <hr>
+            <li><a href="./stores/store-rest.html"> All Drinks & Dining</a></li>
+            </ul>
+
+            <li><a href="./events-lists.html">Events</a></li>
+            <li><a href="./cinema/index.html">Cinema</a></li>
+            <li><a href="#">Playground</a></li>
+            <li><a href="#">Parking</a></li>
+            <li class="hdr_search">
+                <form class="navbar-search pull-left" action="./search.html">
+                    <input type="text" class="search-query input-medium" placeholder="Search"> 
+                    <i class="icon-search"></i>
+                </form>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="topForm">
+		<p class="title ta">Create Account</p>
+        <p class="title tb">Already have an account?</p><p><a class="title tc" href="main.html">Login</a></p>
+</div>
+    
+<div class="RegForm">
+
+	<form class="form-horizontal clb">
+
+		<div class="F_Name">
+
+		<div class="control-group">
+	    <label class="control-label" for="inputFirstName">First Name</label>
+        <p class="Pstar">*</p>
+	    	<div class="controls">
+	    	  <input type="text" id="inputFirstName" placeholder="First Name">
+	    	</div>
+	  	</div>
+	  </div>
+
+	  <div class="F_Name">
+		<div class="control-group">
+	    <label class="control-label" for="inputLastName">Last Name</label>
+        <p class="Pstar">*</p>
+	    	<div class="controls">
+	    	  <input type="text" id="inputLastName" placeholder="Last Name">
+	    	</div>
+	  	</div>
+
+	  </div>
+
+	  <div class="Smail">
+	  <div class="control-group">
+	    <label class="control-label mail" for="inputEmail">Email</label>
+        <p class="Pstar">*</p>
+	    <div class="controls">
+	      <input type="text" id="inputEmail" placeholder="Email">
+	    </div>
+	  </div>
+	</div>
+    
+    <div class="control-group">
+	    <label class="control-label" for="inputPhone">Phone</label>
+	    <div class="controls">
+	      <input type="text" id="inputPhone" placeholder="Phone">
+	    </div>
+	  </div>
+      
+     <div class="control-group">
+     	<label class="control-label ph" for="inputBirthday">Birthday</label>
+        <div class="input-append date" id="dp3" data-date="03-06-2013" data-date-format="dd-mm-yyyy">
+            <input class="span2" size="16" type="text" value="03-06-2013">
+            <span class="add-on"><i class="icon-th"></i></span>
+        </div>
+    </div>
+    
+	  <div class="control-group">
+	    <label class="control-label" for="inputPassword">Password</label>
+        <p class="Pstar">*</p>
+	    <div class="controls">
+	      <input type="password" id="inputPassword" placeholder="Password">
+	    </div>
+	  </div>
+
+	  <div class="control-group">
+	    <label class="control-label" for="inputRePassword">Retype Password</label>
+	    <p class="Pstar">*</p>
+        <div class="controls">
+	      <input type="password" id="inputRePassword" placeholder="Password">
+	    </div>
+	  </div>
+
+	  <div class="control-group">
+	    <div class="controls">
+	      <label class="checkbox">
+	        <input type="checkbox"> Email me a monthly newsletter
+	      </label>
+	      <button type="submit" class="btn btn-primary">Sign up</button>
+	    </div>
+	  </div>
+
+	  <div class="myMuted">
+	  		<p class="muted">By clicking "Sign up" you certify that you are at least 13 years old and agree to our
+	  		<br><a class="privacy" href="..">Privacy Policy</a> and <a class="terms" href="..">Terms of Service</a>. Having trouble? <a class="ghelp" href="..">Get help</a>.</p>
+            <div class="muted">
+            	<p>Fields with star symbol</p><p class="Mstar">*</p>
+            	<p>are required in order to complete the registration.</p>
+            </div>
+	  </div>
+      
+	</form>
+
+</div>
+
+</div>
+
+<div class="ftr">
+
+    <div class="ftr_div">
+        <div class="ftr_entry">
+        <button class="btn disabled"><i class="icon-time"></i></button>
+        8 am - 23:00 pm 
+        </div>
+        <div class="ftr_entry">
+        <button class="btn disabled"><i class="icon-home"></i></button>
+        Kalokairinou 12
+        </div>
+        <div class="ftr_entry">
+        <button class="btn disabled">
+            <img src="../assets/img/page_main/phone.png" width="14" height="14"></button> 
+        2810-721589
+        </div>
+        <div class="ftr_entry">
+        <button class="btn disabled"><i class="icon-envelope"></i></button>
+        info@thesmall.gr
+        </div>
+    </div>
+    
+    <div class="ftr_div">
+        <h5> Information </h5>
+        <div class="ftr_entry"> <a href="">Disabled people</a>  </div>
+        <div class="ftr_entry"> <a href="">Map & find us</a>  </div>
+        <div class="ftr_entry"> <a href="">Newsletter</a>  </div>
+    </div>
+    
+    <div class="ftr_div">
+        <h5> Social media </h5>
+        <div class="ftr_entry"> 
+            <img src='../assets/img/page_main/facebook.png' width="20" height="20">
+            <a href="http://facebook.com">facebook</a>
+        </div>
+        <div class="ftr_entry"> 
+            <img src='../assets/img/page_main/twitter.png' width="20" height="20">
+            <a href="http://twitter.com">twitter</a>
+        </div>
+        <div class="ftr_entry"> 
+            <img src='../assets/img/page_main/foursquare.png' width="20" height="20">
+            <a href="http://foursquare.com">foursquare</a>
+        </div>
+    </div>
+    
+    <div class="ftr_div">
+        <h5> Company </h5>
+        <div class="ftr_entry"> <a href="">About us</a>  </div>
+        <div class="ftr_entry"> <a href="">Press kit</a>  </div>
+        <div class="ftr_entry"> <a href="">Job Opportunities</a>  </div>
+    </div>
+</div>
+
+
+</body>
+
+<script src="../assets/js/jquery-1.9.1.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+
+<script src="../assets/datepicker/js/bootstrap-datepicker.js"></script>
+
+<script>
+    $( document ).ready( function() { $('#dp3').datepicker() } );
+</script> 
+
+</html>

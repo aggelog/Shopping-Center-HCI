@@ -1,0 +1,98 @@
+body
+{
+	width: 960px;
+	height: auto;
+	
+	margin:0 auto;
+}
+
+.hdr
+{ 
+	background-color: #D4E9F2;
+	position: relative; 
+}
+
+.hdr_lang
+{
+	padding: 2px 10px 2px 2px;
+	position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+.hdr_navtop
+{
+	position: absolute; 
+    bottom: 45px; 
+    right: 10px;
+}
+
+.hdr_navbot
+{
+	height:40px;
+	width:680px;
+	position: absolute; 
+    bottom: 0px; 
+    left: 280px;
+}
+.hdr_navbot ul 	{ margin: 0px 0px 5px 0px; }
+.hdr_search		{ margin-left:0px; }
+
+.hdr_search form i { margin-left:-30px; }
+
+//------------------- CONTENT --------------------------
+
+.content
+{
+
+}
+
+// ------------------ CALENDAR -------------------------
+
+.cont_calendar
+{
+	margin-bottom: 50px;
+
+
+}
+
+.cal_entry 
+{ 
+	clear:both; 
+	heigth: 30px;
+	padding: 10px 10px 10px 30px;
+}
+
+.cal_info
+{
+	float: left;
+	height: 30px;
+	background-color: #9DCCDE;
+}
+
+
+
+
+
+
+
+
+
+.ftr
+{
+	clear: both;
+	background-color: #D4E9F2;
+	height:145px;
+}
+
+.ftr_div
+{
+	width:220px;
+	float: left;
+	padding: 10px 10px 20px 10px;	
+}
+
+.ftr_entry
+{
+	padding-top: 6px;
+}

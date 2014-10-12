@@ -1,0 +1,25 @@
+.cinema_main_menu{
+	height:940px;
+}
+
+.cinema_program_time{
+	font-weight:bold;
+}
+
+.cinema_program_title{
+	font-size: 13px;
+}
+
+.cinema_program_seat{
+	font-size: 16px;
+	margin-left:5px;
+}
+
+.cinema_program_entry{
+	width:100px;
+}
+
+.cinema_program_hdTitle{
+	text-align: center;
+	padding:15px;
+}

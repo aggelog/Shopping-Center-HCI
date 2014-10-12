@@ -1,0 +1,312 @@
+
+body{
+	background-color:rgb(39,50,42);
+
+}
+
+.MainBody{
+	background-color:rgb(39,50,42) !important;
+}
+.header-tab img{
+	width:40px;
+}
+
+.header-tab .ui-btn-inner{
+	padding:0px !important;
+}
+.header-title a{
+	width:30px;
+}
+
+.first{
+	width:72%;
+	margin:0px;
+	float:left;
+}
+.header-title .loga{
+	width:100px;
+}
+
+.cntM{
+	background-color:rgb(39,50,42);
+	padding-top:0px;
+	overflow-y:hidden;
+}
+
+.men{
+	clear:both;
+}
+
+.main-page-search .ui-block-a{
+	width:15%!important;
+	padding-top:15px;
+} 
+
+.main-page-search .ui-block-b{
+	width:85%!important;
+} 
+
+
+.Mmenu *{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+.first-page-entry{
+	height:50px;
+	margin-bottom:10px;
+}
+
+.ui-btn-inner .ui-li{
+	height:50px;
+	margin-bottom:10px !important;
+}
+
+.first-page-entry-img{
+	overflow:hidden;
+	width:45px;
+	float:left;
+}
+
+.first-page-entry-inf{
+	float:left;
+	margin-left:-45px;
+	margin-top:-15px;
+}
+
+
+.first-page-entry-inf-title{
+	margin:5px 0px 0px 0px;
+	padding:0px;
+}
+
+.first-page-entry-inf-details{
+	margin-top:5px;
+}
+
+.first-page-entry-day{
+	float:right;
+}
+
+#second-entry .first-page-entry-day{
+	margin-top:-45px;
+}
+
+#third-entry .first-page-entry-day{
+	margin-top:-45px;
+}
+
+#forth-entry .first-page-entry-day{
+	margin-top:-45px;
+}
+
+.main-page-footer{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+.ui-li.ui-btn{
+	margin: 3px !important;
+}
+
+/***************** Parking Details   */
+
+.MCona{
+	background-color:rgb(39,50,42);
+	padding-top: 8px;
+}
+
+.MCona p{
+	margin: 0px;
+	color:#D3D3D3;
+	display: inline;
+	background-color:rgb(39,50,42);
+}
+
+#f1Lna{
+	font-size:30px;
+	padding-left: 25px;
+}
+
+#f1Lnb{
+	font-size:30px;
+	padding-left: 70px;
+}
+
+.MConb{
+	background-color:rgb(39,50,42);
+	padding-top: 0px;
+	padding-left: 36px;
+}
+
+.MConb p{
+	margin: 0px;
+	color:#D3D3D3;
+	display: inline;
+	font-size: 20px;
+	background-color:rgb(39,50,42);
+}
+
+.MConc{
+	background-color:rgb(39,50,42);
+	padding-top: 0px;
+	padding-left: 36px;
+}
+
+.MConc p{
+	margin: 0px;
+	color:#D3D3D3;
+	display: inline;
+	font-size: 70px;
+	font-weight:bold;
+	background-color:rgb(39,50,42);
+}
+
+.MConc .MConcb{
+	display: inline;
+}
+
+.MConcb p{
+	font-size: 20px;
+}
+
+.EmptyLine{
+	background-color:rgb(39,50,42);
+	width: auto;
+	margin: 0px;
+	padding-left: 30px;
+}
+
+.MCond{
+	background-color:rgb(39,50,42);
+	padding-top: 0px;
+	padding-left: 36px;
+}
+
+.MCond p{
+	margin: 0px;
+	color:#D3D3D3;
+	font-size: 30px;
+	background-color:rgb(39,50,42);
+}
+
+.MFtr{
+	clear: both;
+	margin: 0px;
+	padding-top: 25px;
+	background-color:rgb(39,50,42);
+}
+
+.MFtr .ui-btn{
+	margin: 0px !important;
+} 
+
+#MPD{
+	background-color:rgb(39,50,42);
+}
+
+#m57pd{
+	margin: 0px;
+	color:#D3D3D3;
+	font-size: 90px;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+#MUmpd{
+	margin-bottom: 0px;
+	color:#D3D3D3;
+	font-size: 20px;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+#NCmpd{
+	margin: 0px;
+	color:#D3D3D3;
+	font-size: 20px;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+/**************** Parking Reservation **************/
+
+#MPRtitle{
+	margin: 0px;
+	color:#D3D3D3;
+	text-shadow:0px 0px #fff !important;
+	padding-left: 28px;
+	font-size: 20px;
+}
+
+.MPRsteps p{
+	margin: 0px;
+	color:#D3D3D3;
+	font-size: 15px;
+	background-color:rgb(39,50,42);
+	display: inline;
+	text-shadow:0px 0px #fff !important;
+}
+
+.MPRHstep{
+	font-size: 18px !important;
+}
+
+.ui-btn-corner-all{
+	border-radius: 0px !important;
+	margin: 3px !important;
+}
+
+/**************** Cinema ****************/
+
+.MCinema-Title{
+	margin-top: 3px;
+	margin-left: 14px;
+	margin-bottom: 3px;
+	color:#D3D3D3;
+	font-size: 20px;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+.MCinema-instr{
+	margin: 1px;
+	padding-left: 18px;
+	color:#D3D3D3;
+	font-size: 16px;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+.ui-block-b p{
+	color:#D3D3D3;
+	font-size: 16px;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+.MCbHL{
+	text-decoration: none;
+}
+
+/*************** Cinema - Barcode ***********/
+
+.MVBinstr{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	color:#D3D3D3;
+	font-size: 16px;
+	font-style: italic;
+	background-color:rgb(39,50,42);
+	text-shadow:0px 0px #fff !important;
+}
+
+#barcd{
+	width: 220px;
+	height: 210px
+}

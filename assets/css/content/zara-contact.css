@@ -1,0 +1,26 @@
+.zara-cont{ height : 440px; }
+
+.cat-left{
+	float:left;
+	width: 420px;
+	height: 100%;
+}
+.cat-left h4 { padding: 0px 0px 0px 30px; }
+.cat-list {
+	float: left;
+	padding: 10px 10px 0px 0px;
+}
+.cat-dl 	{ float: left; }
+.cat-dl-img { float: left; padding: 0px 0px 0px 15px; }
+.cat-dl-txt { float: left; }
+
+.cat-right{
+
+	float:left;
+	height: 100%;
+	width: 390px;
+	padding: 20px 0px 0px 0px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+} 

@@ -1,0 +1,45 @@
+.zara-cont{ height : 610px; }
+.top-list {
+	float: left;
+	width: 850px;
+}
+
+.top-list-title{ width:100%; padding-left: 30px; float: left; }
+
+.top-list-items{ 
+	float: left; 
+	padding: 10px 10px 10px 30px;
+}
+
+.list-item { 
+	float: left; 
+	position: relative;
+	padding: 0px 20px 0px 20px; 
+}
+.list-item-tlt {  
+	text-align: center; 
+	margin: 0 auto; 
+	padding: 0px 0px 3px 0px;
+}
+.list-item-inf{
+	text-align: center; 
+	width: 100px;
+}
+
+.onsale-cont{
+	position: relative;
+	float:left;
+	width: 380px;
+	vertical-align: middle;
+	text-align: center;	
+}
+
+.onsale-txt{
+	position: absolute;
+	bottom: 40px;
+	left:40px;
+	background: rgb(80,169,189); 
+    background: rgba(80,169,189,0.9); 
+    width: 300px;
+
+}

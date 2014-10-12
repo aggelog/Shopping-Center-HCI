@@ -1,0 +1,82 @@
+.cinema_movie_img{
+	float:left;
+	height:340px;
+	width:30%;
+}
+
+.cinema_movie_info{
+	float:left;
+	height:340px;
+	width:45%;
+	padding:0px 15px;
+}
+
+.cinema_movie_details{
+	clear:both;
+	padding-top:15px;
+}
+
+
+.cinema_movie_info .cinema_title{
+	text-align:center;
+}
+
+.cinema_movie_basic_info{
+	padding-top:20px;
+}
+
+.cinema_movie_basic_info *{
+	float:left;
+}
+
+.cinema_movie_basic_info .cinema_time h5{ 
+	margin-top:4px;
+	margin-left:5px;
+}
+
+.cinema_movie_basic_info .cinema_categ{ 
+	margin-top:4px;
+	margin-left:30px;
+}
+
+.cinema_movie_basic_info .cinema_oscar{ 
+	float:right;
+	margin-top:5px;
+}
+
+.cinema_movie_basic_info .cinema_oscar *{ 
+	margin-left:7px;
+}
+
+.cinema_movie_second_info *{
+	float:left;
+}
+
+.cinema_movie_second_info h5:last-child{
+	margin-left:42px;
+}
+
+.cinema_movie_third_info{
+	clear:both;
+	padding-top:10px;
+}
+
+.cinema_movie_third_info table{
+
+}
+
+.cinema_movie_third_info button{
+	margin-top:5px;
+}
+
+.cinema_movie_details_discr{
+	float:left;
+	width:45%;
+}
+
+.cinema_movie_details_trailer{
+	float:left;
+	width:45%;
+	margin-left:30px;
+	margin-top:65px;
+}

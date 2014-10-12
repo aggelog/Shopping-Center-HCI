@@ -1,0 +1,231 @@
+.cinema_ticket_steps{
+	height:500px;
+}
+
+.cinema_ticket_header_name h1:first-child{
+	color:#9DCCDE !important;
+	float:left;
+	font-size:28px;
+}
+
+.cinema_ticket_header_name h1:last-child{
+	float:left;
+	letter-spacing:1px;
+	margin-left:50px;
+}
+
+.cinema_ticket_next_btn{
+	margin-top:20px !important;
+	width:110px;
+	height:35px;
+	float:right;
+}
+
+.cinema_ticket_step2_details{
+	margin-top:15px;
+	clear:both;
+	float:left;
+	width:35%;
+}
+
+.cinema_ticket_step2_screen{
+	float:left;
+	width:60%;
+	margin-top:30px;
+	margin-left: 20px;
+}
+
+.cinema_ticket_step2_details .cinema_tickets{
+	text-align:center;
+	font-size:24px;
+}
+
+.cinema_ticket_step2_get_quantity_entry{
+	width:100%;
+	height:40px;
+	text-align:center;
+	clear:both;
+}
+
+.cinema_ticket_step2_get_quantity_entry h2{
+	float:left;
+	margin-left:9px;
+}
+
+.cinema_ticket_step2_get_quantity_entry button{
+	float:left;
+	margin-left:8px;
+	margin-top:4px;
+}
+
+.cinema_ticket_step2_get_quantity_entry .qnt{
+	font-size:20px;
+}
+
+.cinema_ticket_step2_get_quantity_entry .cinema_less{
+	margin-left:10px;
+}
+
+.cinema_ticket_step2_total_quantity_entry{
+	clear:both;
+	margin-top:15px;
+}
+
+.cinema_ticket_step2_total_quantity_entry h2{
+	float:left;
+	margin-left:9px;
+}
+
+.cinema_ticket_step2_total_quantity_entry h1{
+	float:left;
+	margin-left:25px;
+}
+
+.cinema_ticket_step2_total_quantity_entry button{
+	margin-top:15px;
+	float:right;
+}
+
+.cinema_ticket_step2_total_quantity_entry .pillbox{
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+}
+
+.cinema_ticket_step2_screen_details *{
+	float:left;
+}
+
+.cinema_ticket_step2_screen_details div{
+	margin-left:20px;
+}
+
+.cinema_ticket_step2_screen_details img{
+	margin-left:20px;
+}
+
+.cinema_ticket_step2_screen_details h4{
+	margin-left:10px;
+}
+
+.cinema_ticket_step2_mid{
+	clear:both;
+	padding-top:10px;
+}
+
+.cinema_ticket_step2_mid button{
+	float:left;
+	width:180px;
+}
+
+.cinema_ticket_step2_mid h3{
+	margin-top:-10px;
+	margin-left: 110px;
+	float:left;
+}
+
+.cinema_ticket_step2_bottom{
+	padding-top: 25px;
+	clear:both;
+}
+
+.cinema_ticket_step2_bottom h3{
+	float:left;
+	width:70%;
+}
+
+.cinema_ticket_step3_cnt{
+	clear:both;
+	padding-top:15px;
+}
+
+.cinema_ticket_step3_entries{
+	clear:both;
+}
+
+.cinema_ticket_step3_entries h2{
+	float:left;
+	margin-left:9px;
+	margin-top:0px;
+}
+
+.cinema_ticket_step3_entries h1{
+	float:left;
+	margin-left:50px;
+	font-size:30px;
+	margin-top:0px;
+}
+
+.cinema_ticket_step3_entries input{
+	float:left;
+	margin-left:50px;
+	font-size:30px;
+	margin-top:0px;
+}
+
+.cinema_ticket_step3_entries .test{
+	float:left;
+}
+
+.cinema_ticket_step3_cnt .cinema_payway{
+	float:left;
+	margin-left:10px;
+}
+
+.cinema_ticket_step3_cnt .cinema_date input{
+	width:30px;
+}
+
+.cinema_ticket_step3_cnt .cinema_date input:last-child{
+	margin-left:10px;
+}
+
+.cinema_ticket_step3_entries_final_price{
+	float:left;
+	margin-left:40px;
+}
+
+.cinema_ticket_step3_entries_final_price h2{
+	float:left;
+	margin-left:10px;
+}
+
+.cinema_ticket_step3_entries_final_price h1{
+	float:left;
+	margin-left:10px;
+	font-size:28px;
+}
+
+.cinema_clear_both{
+	clear:both;
+}
+
+.cinema_ticket_step4_title{
+	text-align:center;
+	margin-top:15px;
+}
+
+.cinema_ticket_step4_notify .cinema_noti_way{
+	clear:both;
+}
+
+.cinema_ticket_step4_notify .cinema_noti_way label{
+	float:left;
+}
+
+.cinema_ticket_step4_notify .cinema_noti_way input{
+	margin-left:10px;
+	float:left;
+}
+
+.cinema_ticket_step4_info_title{
+	padding-top:20px;
+}
+
+.cinema_ticket_step4_info{
+	margin-left:-100px;
+}
+
+.cinema_ticket_step4_noti_btn{
+	float:right;
+}

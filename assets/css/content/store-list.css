@@ -1,0 +1,31 @@
+.store-locator-category{
+	margin-left:280px;
+}
+
+.store-locator-category *{
+	float:left;
+}
+
+.store-locator-category h4{
+	margin-top:25px;
+}
+
+.store-locator-category .pagination{
+	margin-left:20px;
+}
+
+
+.store-result td{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.store-locator-img{
+	text-align: center;
+	clear:both;
+}
+
+.store-locator-img img{
+	width:60%;
+}
+

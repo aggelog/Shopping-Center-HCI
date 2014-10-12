@@ -1,0 +1,23 @@
+
+.table td{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.info-button{
+	float: left;
+	width: 479px;
+	padding: 10px 0px 30px 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+.table th{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.history-more{
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+}

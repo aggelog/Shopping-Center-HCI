@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+
+  
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page4" class="MainBody">
+    <div data-theme="a" data-role="header" data-position="fixed">
+    	<div class="header-title">
+    		<div class="first">
+        	<a href="#page1"><img src="./images/06f15340-b8ff-4ac0-b3ca-5d577caa12b9.png"></a>
+            <img src="./images/5263433c-48a7-42a5-9619-12805af768c9.png" class="loga">
+        </div>
+            <a href="#page1"><img src="./images/19b54822-d940-4fa9-a2cf-235b35e89cf6.png"></a>
+            <a href="#page1"><img src="./images/9eae5810-4a91-45d6-980f-a7a2b207c6d3.png"></a>
+        </div>
+        <div data-role="navbar" data-iconpos="top" class="header-tab">
+            <ul>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="link1">
+                        <img src="./images/e16cdcd2-ed3e-4031-92e1-07d48f58238a.png">
+                    </a>
+                    <script>$('.link1').on('click', function(){ window.location.href = 'index.html'; }); </script>
+                </li>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="link2">
+                        <img src="./images/play.png">
+                    </a>
+                    <script>$('.link2').on('click', function(){ window.location.href = 'happening_now.html'; }); </script>
+                </li>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="link3">
+                        <img src="./images/150c4c65-e7b2-4e89-a1a8-9d5632b5595a.png">
+                    </a>
+                    <script>$('.link3').on('click', function(){ window.location.href = 'cinema.html'; }); </script>
+                </li>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="ui-btn-active link4">
+                        <img src="./images/78625d25-fd3d-4d7f-899d-733206a9b616.png">
+                    </a>
+                    <script>$('.link4').on('click', function(){ window.location.href = 'parking_reservation.html'; }); </script>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div data-role="content" class="cntM">
+        <h4 id="MPRtitle">Parking Reservation</h4>
+        <div class="MPRsteps">
+            <p class="MPRHstep">Step 1</p>
+            <p> : Select the Level</p>
+        </div>
+        <div data-role="collapsible-set">
+            <div data-role="collapsible">
+                <h3>
+                    Level
+                </h3>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <input id="radio3" name="" value="radio1" type="radio">
+                        <label for="radio3">
+                            A
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <input id="radio6" name="" value="radio1" type="radio">
+                        <label for="radio6">
+                            B
+                        </label>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <input id="radio7" name="" value="radio1" type="radio">
+                        <label for="radio7">
+                            C
+                        </label>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="MPRsteps">
+            <p class="MPRHstep">Step 2</p>
+            <p> : Select the Slot Number</p>
+        </div>
+        <div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>
+                    Slot Number
+                </h3>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <input id="radio17" name="" value="radio1" type="radio">
+                        <label for="radio17">
+                            1
+                        </label>
+                        <input id="radio19" name="" value="radio19" type="radio">
+                        <label for="radio19">
+                            2
+                        </label>
+                        <input id="radio20" name="" value="radio20" type="radio">
+                        <label for="radio20">
+                            3
+                        </label>
+                        <input id="radio24" name="" value="radio24" type="radio">
+                        <label for="radio24">
+                            4
+                        </label>
+                        <input id="radio25" name="" value="radio25" type="radio">
+                        <label for="radio25">
+                            5
+                        </label>
+                        <input id="radio26" name="" value="radio26" type="radio">
+                        <label for="radio26">
+                            6
+                        </label>
+                        <input id="radio27" name="" value="radio27" type="radio">
+                        <label for="radio27">
+                            7
+                        </label>
+                        <input id="radio28" name="" value="radio28" type="radio">
+                        <label for="radio28">
+                            8
+                        </label>
+                        <input id="radio29" name="" value="radio29" type="radio">
+                        <label for="radio29">
+                            9
+                        </label>
+                        <input id="radio30" name="" value="radio30" type="radio">
+                        <label for="radio30">
+                            10
+                        </label>
+                        <input id="radio31" name="" value="radio31" type="radio">
+                        <label for="radio31">
+                            11
+                        </label>
+                        <input id="radio32" name="" value="radio32" type="radio">
+                        <label for="radio32">
+                            12
+                        </label>
+                        <input id="radio33" name="" value="radio33" type="radio">
+                        <label for="radio33">
+                            13
+                        </label>
+                        <input id="radio34" name="" value="radio34" type="radio">
+                        <label for="radio34">
+                            14
+                        </label>
+                        <input id="radio35" name="" value="radio35" type="radio">
+                        <label for="radio35">
+                            15
+                        </label>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="MPRsteps">
+            <p class="MPRHstep">Step 3</p>
+            <p> : Press the confirmation button to complete the reservation!</p>
+        </div>
+        <input type="submit" action='parking_details.html' data-theme="a" data-icon="check" data-iconpos="left"
+        value="Confirm" class='btn-sub-con'>
+    </div>
+    <script>$('.btn-sub-con').on('click', function(){ window.location.href = 'parking_details.html'; }); </script>
+</div>
+</body>
+</html>

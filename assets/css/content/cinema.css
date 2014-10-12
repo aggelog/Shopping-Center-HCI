@@ -1,0 +1,151 @@
+.cinema_detail_color{
+	color:#777777;
+}
+
+.cinema_content{
+	height : 800px;
+	width:100%;
+}
+
+.cinema_left_menu{
+	width:18%;
+	height:100%;
+	float:left;
+	border-right-style:ridge;
+/*	background-color:#dddddd; */
+}
+
+.cinema_main_menu{
+	width:78%;
+	float:left;
+}
+
+.cinema_header{
+	height:40px;
+}
+
+.cinema_main_content{
+	height:100%;
+	/*background-color: #EEEEEE;*/
+	margin-top:20px;
+	margin-left:5px;
+}
+
+.cinema_header_entry{
+	float:left;
+	padding: 10px 10px 10px 10px;
+}
+
+.cinema_header_entry.cinema_header_time{
+	font-size:xx-small;
+	width: 210px;
+	height: 30px;
+	float:left;
+}
+
+.cinema_header_time_cnt{
+	float:right;
+	font-size:xx-small;
+	margin-top: 0px;
+	width: 120px;
+	height: 30px;
+	padding-right: 40px;
+	line-height:1;
+}
+
+.cinema_left_menu_links{
+	margin-top: 10px;
+}
+
+.cinema_left_menu_links ul{
+	margin: 0px 10px 0px 10px;
+}
+
+.cinema_left_menu_links ul li a{
+	padding: 5px;
+}
+
+.cinema_left_menu_offer{
+	width:177px;
+	height:230px;
+	margin-left:15px;
+	margin-top:30px;
+}
+
+.cinema_left_menu_offer .cinema_offer_entry{
+	margin-left:20px;
+}
+
+.cinema_left_menu_offer .cinema_offer_entry h3{
+	background-color: #50A98D;
+	color: #FFFFFF;
+	border-radius: 16px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	clear:both;
+	float:left;
+	width:50px;
+	margin:2px 0px;
+	text-align:center;
+}
+
+.cinema_left_menu_offer .cinema_offer_entry span{
+	float:left;
+	line-height:1;
+	width:90px;
+	margin-left:5px;
+}
+
+.cinema_now_playing{
+	width:100%;
+}
+
+.cinema_now_playing_entry{
+	margin-bottom:15px;
+}
+
+.cinema_now_playing_entry{
+	margin-left:45px;
+	height:300px;
+	width:140px;
+	float:left;
+}
+
+.cinema_now_playing_name{
+	height: 45px;
+}
+
+.cinema_now_playing_name h5{
+	margin:2px 0px;
+	width:65%;
+	float:left;
+}
+
+.cinema_now_playing_name h3{
+	margin:-5px 0px 0px 0px;
+	width:30%;
+	float:right;
+}
+
+.cinema_now_playing_info small{
+	margin:1px 0px;
+	width:80%;
+	float:left;
+}
+
+.cinema_now_playing_buy a{
+	width:60px;
+	float:left;
+}
+
+.cinema_now_playing_buy h3{
+	margin-top: -5px;
+	margin-left:15px;
+	float:left;
+}
+
+.cinema_comming_soon_entry{
+	margin-left:45px;
+	width:140px;
+	float:left;
+}

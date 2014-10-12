@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1" class="MainBody">
+    <div data-theme="a" data-role="header" data-position="fixed">
+      <div class="header-title">
+        <div class="first">
+          <a href="#page1"><img src="./images/06f15340-b8ff-4ac0-b3ca-5d577caa12b9.png"></a>
+            <img src="./images/5263433c-48a7-42a5-9619-12805af768c9.png" class="loga">
+        </div>
+            <a href="#page1"><img src="./images/19b54822-d940-4fa9-a2cf-235b35e89cf6.png"></a>
+            <a href="#page1"><img src="./images/9eae5810-4a91-45d6-980f-a7a2b207c6d3.png"></a>
+        </div>
+        <div data-role="navbar" data-iconpos="top" class="header-tab">
+            <ul>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="link1">
+                        <img src="./images/e16cdcd2-ed3e-4031-92e1-07d48f58238a.png">
+                    </a>
+                    <script>$('.link1').on('click', function(){ window.location.href = 'index.html'; }); </script>
+                </li>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="link2">
+                        <img src="./images/play.png">
+                    </a>
+                    <script>$('.link2').on('click', function(){ window.location.href = 'happening_now.html'; }); </script>
+                </li>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="ui-btn-active link3">
+                        <img src="./images/150c4c65-e7b2-4e89-a1a8-9d5632b5595a.png">
+                    </a>
+                    <script>$('.link3').on('click', function(){ window.location.href = 'cinema.html'; }); </script>
+                </li>
+                <li>
+                    <a href="" data-transition="fade" data-theme="" data-icon="" class="link4">
+                        <img src="./images/78625d25-fd3d-4d7f-899d-733206a9b616.png">
+                    </a>
+                    <script>$('.link4').on('click', function(){ window.location.href = 'parking_reservation.html'; }); </script>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content" class="cntM">
+        <h3 class="MCinema-Title">
+            Fight Club
+        </h3>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="">
+                    <img style="width: 120px; height: 180px" src="./images/fightClub.jpg">
+                </div>
+            </div>
+            <div class="ui-block-b">
+                  <p>Class: 13A</p>
+                  <p>Day: 17/6</p>
+                  <p>Time: 18:00</p>
+                  <p>Tickets: 3</p>
+            </div>
+        </div>
+
+        <p class="MCinema-instr">Press the Button bellow to see</p>
+        <p class="MCinema-instr">the barcode image.</p>
+
+        <a href="cinema_barcode.html" class="MCbHL">
+            <input type="submit" data-theme="a" data-icon="" data-iconpos="left"
+            value="Barcode">
+        </a>
+        <script>$('.MCbHL').on('click', function(){ window.location.href = 'cinema_barcode.html'; }); </script>
+        
+    </div>
+
+</div>
+</body>
+</html>

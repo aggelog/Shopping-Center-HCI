@@ -1,0 +1,21 @@
+.custom-radius-color{
+	border-top-left-radius:75px;
+	border-top-right-radius:75px;
+	border-bottom-left-radius:75px;
+	border-bottom-right-radius:75px;
+	width:20px;
+	height:20px;
+}
+
+.custom-radius-color.blue{
+	background-color: rgb(63, 72, 204);
+}
+
+.custom-radius-color.gray{
+	background-color: rgb(127, 127, 127);
+}
+
+.custom-radius-color.white{
+	border-style:solid;
+	border-width:1px;
+}
